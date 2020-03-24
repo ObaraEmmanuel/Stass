@@ -1,0 +1,1 @@
+web: gunicorn Stass.wsgi --log-file
