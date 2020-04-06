@@ -1,5 +1,6 @@
 {% extends 'rest_framework/base.html' %}
 {% load static %}
+{% block title %}{% if name %}{{ name }} – {% endif %}Stass API{% endblock %}
 {% block branding %}
-    <a class='navbar-brand' rel="nofollow" href='#'> Stass Browsable api </a>
+    <a class='navbar-brand' rel="nofollow" href='#'> Stass API </a>
 {% endblock %}
